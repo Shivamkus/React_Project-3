@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    background-color: #fff;
+}
+.cards{
+    position:static;
+    margin-top: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #f0f3f48a;
+    text-align: center;
+    border: 1px solid black;
+    height: auto;
+    width: 250px;
+  
+}
+
+  .card-body {
+    display: grid;
+}
+.card-title{
+    display: flex;
+}
+.cards .card .card-image{
+    height: 330px;
+    width: 250px;
+}
+.cards .card .card-image img{
+     height: 100%;
+     width: 100%;
+}
+
+
+Header{
+    height: 100vh;
+    width: 100%;
+}
+Header img{
+    height: 100%;
+    width: 100%;
+}
+header .header-info{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+}
+header .header-info .header-infos{
+    padding-top: 20px;
+    margin-top: -500px;
+    /* margin-left: 420px; */
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.297),rgba(0, 0, 0, 0.751),rgba(0, 0, 0, 0.899),rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.242));
+width: 45%;
+height: 300px;
+    /* background-color: #1e1d1d72; */
+    color: white;
+}
+header .header-info .header-infos h1{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 38px;
+}
+header .header-info .header-infos h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+font-size: 20px;
+}
+header .header-info .header-infos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+font-size: 15px;
+}
+header .header-info .header-infos input{
+    height: 50px;
+    width: 380px;
+    background-color: #e3e2e2e8;
+    border: none;
+    padding-left:50px ;
+}
+header .header-info .header-infos button{
+    height: 52px;
+    margin-top: 10px;
+    width: 150px;
+    background-color: red;
+    border: none;
+    font-weight: bold;
+    /* font-size: 16px; */
+}
+header .header-info .header-infos button a{
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+
+
+/* this is a style for the new card  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grand-parents{
+    height: 100%;
+    width: 100vw;
+    background-color: #f0efef;
+    text-align: center;
+    padding: 30px;
+}
+h1{
+    margin: 20px;
+}
+
+.parents{
+    margin-left: 10%;
+    display: flex;
+    width: 80%;
+    background-color: rgba(245, 240, 245, 0.878);
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.child{
+    height: 350px;
+    width: 280px;
+    background-color: rgb(11, 182, 145);
+    margin: 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 20px rgb(8, 8, 8);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img{
+    
+    margin-top:3px ;
+    margin-left: 2.5px;
+    height: 200px;
+    width: 275px;
+}
+.img img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.info{
+    color: #f0efef;
+}
+.child:first-child{
+    border-color: #f0efef;
+    background-color: rgb(29, 212, 172);
+}
+.child:last-child{
+    border-color: #f0efef;
+    background-color: rgb(182, 105, 11)
+}
+.child:hover{
+    /* transform: 0.3s; */
+     transform:rotateY('20px');
+    margin-top:1px ;
+}
